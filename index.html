@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deon Harefa - Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Neural Network Background -->
+    <div class="neural-bg">
+        <div class="neural-nodes" id="neuralNodes"></div>
+    </div>
+
+    <!-- Matrix Rain Effect -->
+    <div class="matrix-rain" id="matrixRain"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Deon Harefa</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-text">
+                    <div class="greeting">
+                        <span class="greeting-icon">👋</span>
+                        <span class="greeting-text">Hello, I'm</span>
+                    </div>
+                    <h1>
+                        <span class="name-highlight">Deon</span>
+                        <span class="name-accent">Harefa</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="typing-text">Data Enthusiast</span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <!-- <p class="hero-subtitle">Machine Learning Engineer</p> -->
+                    <p class="hero-description">
+                        Saya adalah seorang mahasiswa Teknik Informatika yang memiliki minat besar di bidang data. 
+                        Saat ini, saya fokus belajar tentang machine learning untuk membangun model prediksi yang 
+                        dapat digunakan untuk berbagai aplikasi di masa depan. Dalam proses pembelajaran, 
+                        saya menguasai berbagai bahasa pemrograman dan alat analisis data, termasuk Python, SQL, dan Excel. Saya percaya bahwa kemampuan ini akan membantu saya dalam mengolah dan menganalisis data secara efektif, serta memberikan kontribusi yang signifikan di dunia teknologi informasi.
+                    </p>
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="cta-button primary">
+                            <span class="btn-icon">🚀</span>
+                            <span>Lihat Proyek ML</span>
+                        </a>
+                        <a href="#contact" class="cta-button secondary">
+                            <span class="btn-icon">💬</span>
+                            <span>Hubungi Saya</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <!-- Your photo -->
+                            <img src="../img/deon.JPG" alt="Deon Harefa">
+                        </div>
+                        <div class="profile-glow"></div>
+                    </div>
+                    <!-- ikon berjalan -->
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">🤖</div>
+                            <div class="card-text">AI/ML</div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">📊</div>
+                            <div class="card-text">Data Science</div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">🧠</div>
+                            <div class="card-text">Deep Learning</div>
+                        </div>
+                        <div class="floating-card card-4">
+                            <div class="card-icon">🔍</div>
+                            <div class="card-text">Analytics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category slide-in-left">
+                <div class="skill-icon">🐍</div>
+                <h3>Python Programming</h3>
+                <p class="skill-description">Memiliki fondasi yang kuat dalam pemrograman Python dan siap untuk proyek-proyek lebih lanjut di bidang data dan Machine Learning</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Scikit-learn</span>
+                    <span class="skill-tag">Matplotlib</span>
+                </div>
+            </div>
+            <div class="skill-category slide-in-right">
+                <div class="skill-icon">📊</div>
+                <h3>Microsoft Excel</h3>
+                <p class="skill-description">Mampu mengoperasikan Ms. Excel untuk analisis data
+                </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Beginners</span>
+                </div>
+            </div>
+            <div class="skill-category slide-in-left">
+                <div class="skill-icon">🗄️</div>
+                <h3>SQL</h3>
+                <p class="skill-description">Mampu mengelola dan menganalisis data secara efisien menggunakan SQL </p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Beginners</span>
+                </div>
+            </div>
+            <div class="skill-category slide-in-right">
+                <div class="skill-icon">📈</div>
+                <h3>Data</h3>
+                <p class="skill-description">Analisis data komprehensif dan pemodelan statistik untuk wawasan bisnis</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Science</span>
+                    <span class="skill-tag">Data Analyst</span>
+                    <span class="skill-tag">Data Mining</span>
+                    <span class="skill-tag">Regression</span>
+                    <span class="skill-tag">Classification</span>
+                </div>
+            </div>
+            <div class="skill-category slide-in-left">
+                <div class="skill-icon">🤖</div>
+                <h3>Machine Learning</h3>
+                <p class="skill-description">Membangun dan menerapkan model prediktif menggunakan algoritma Machine Learning</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Understanding</span>
+                    <span class="skill-tag">Data Prepatation</span>
+                    <span class="skill-tag">Data Pre-Procesing</span>
+                    <span class="skill-tag">Data Modeling</span>
+                    <span class="skill-tag">Feature Engineering</span>
+                    <span class="skill-tag">Model Evaluation</span>
+                </div>
+            </div>
+            <div class="skill-category slide-in-right">
+                <div class="skill-icon">🛠️</div>
+                <h3>Additional Tools</h3>
+                <p class="skill-description">Alat dan platform pendukung untuk analisis data dan Machine Learning</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Jupyter</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Tableau</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Ms. Excel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2>Projects ML</h2>
+        <div class="projects-grid">
+            <div class="project-card slide-in-left">
+                <div class="project-header">
+                    <h3>PREDIKSI KUALITAS AIR</h3>
+                    <p class="project-type">Machine Learning</p>
+                </div>
+                <div class="project-content">
+                    <p>Model Random Forest berhasil memprediksi kualitas air dengan akurasi yang tinggi, memanfaatkan berbagai fitur untuk analisis. 
+                        Proyek ini meningkatkan pemahaman saya tentang penerapan machine learning dalam pengelolaan sumber daya air.</p>
+                    <div class="model-info">
+                        <div class="model-item">
+                            <span class="model-icon">📊</span>
+                            <span class="model-value">Random Forest Classifier</span>
+                        </div>
+                        <div class="model-item">
+                            <span class="model-icon">🎯</span>
+                            <span class="model-value accuracy">0.95%</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Numpy</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Deonhrf/prediksi-kualitas-air-dengan-algoritma-machine-learning" class="github-link" target="_blank">
+                            <span>🐙</span>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card slide-in-right">
+                <div class="project-header">
+                    <h3>PREDIKSI HARGA RUMAH</h3>
+                    <p class="project-type">Machine Learning - Linear Regression</p>
+                </div>
+                <div class="project-content">
+                    <p>Model Linear Regression berhasil memprediksi harga rumah dengan akurasi yang baik, membantu calon pembeli 
+                        dan investor dalam pengambilan keputusan. Proyek ini meningkatkan pemahaman saya tentang machine learning 
+                        dalam analisis pasar properti.</p>
+                    <div class="model-info">
+                        <div class="model-item">
+                            <span class="model-icon">📈</span>
+                            <span class="model-value">Linear Regression</span>
+                        </div>
+                        <div class="model-item">
+                            <span class="model-icon">🎯</span>
+                            <span class="model-value accuracy">0.89%</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Numpy</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Deonhrf/house-price-prediction" class="github-link" target="_blank">
+                            <span>🐙</span>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card slide-in-left">
+                <div class="project-header">
+                    <h3>PREDIKSI PENYAKIT DIABETS</h3>
+                    <p class="project-type">Machine Learning - SVM </p>
+                </div>
+                <div class="project-content">
+                    <p>Model SVM berhasil memprediksi kemungkinan penyakit diabetes dengan tingkat akurasi yang memuaskan, memanfaatkan berbagai fitur kesehatan sebagai data masukan.
+                        Proyek ini memperluas pemahaman saya tentang penerapan machine learning dalam deteksi awal penyakit.</p>
+                    <div class="model-info">
+                        <div class="model-item">
+                            <span class="model-icon">🧠</span>
+                            <span class="model-value">Support Machine Learning</span>
+                        </div>
+                        <div class="model-item">
+                            <span class="model-icon">🎯</span>
+                            <span class="model-value accuracy">0.76%</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Understanding Data</span>
+                        <span class="tech-tag">cleaning Data</span>
+                        <span class="tech-tag">EDA</span>
+                        <span class="tech-tag">Prepatation Data </span>
+                        <span class="tech-tag">Modeling</span>
+                        <span class="tech-tag">Evaluation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Deonhrf/Prediksi_Penyakit_Diabetes_Dengan_Mechine_Learning_Algoritma_SVM" class="github-link" target="_blank">
+                            <span>🐙</span>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card slide-in-right">
+                <div class="project-header">
+                    <h3>ANALISA PENJUALAN TOKO</h3>
+                    <p class="project-type">DATA ANALYST</p>
+                </div>
+                <div class="project-content">
+                    <p>Exploratory Data Analysis berhasil mengidentifikasi pola dan tren dalam data penjualan toko, memberikan insight berharga mengenai 
+                        perilaku konsumen dan faktor-faktor yang memengaruhi penjualan. 
+                        Proyek ini memperdalam pemahaman saya tentang metode analisis data dalam proses pengambilan keputusan bisnis.</p>
+                    <div class="model-info">
+                        <div class="model-item">
+                            <span class="model-icon">🔤</span>
+                            <span class="model-value">Analysis</span>
+                        </div>
+                        <div class="model-item">
+                            <span class="model-icon">🎯</span>
+                            <span class="model-value accuracy">Insight Bisnis</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Numpy</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                        <span class="tech-tag">EDA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Deonhrf/analysis-sales-store" class="github-link" target="_blank">
+                            <span>🐙</span>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Mari Berkolaborasi</h2>
+        
+        <div class="contact-container">
+            <div class="contact-info slide-in-left">
+                <h3>Tertarik untuk berkolaborasi?</h3>
+                <p>Saya selalu terbuka untuk diskusi tentang proyek-proyek machine learning yang menantang, research collaboration, atau kesempatan untuk berkontribusi dalam solving real-world problems dengan AI.</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:gideontrimanharefa12@gmail.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>gideontrimanharefa12@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/deon-harefa-b4785a324/" class="contact-link" target="_blank">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Deonhrf" class="contact-link" target="_blank">
+                        <span class="contact-icon">🐙</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.kaggle.com/deonharefa" class="contact-link" target="_blank">
+                        <span class="contact-icon">📊</span>
+                        <span>Kaggle</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-visual slide-in-right">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dot dot-red"></div>
+                        <div class="terminal-dot dot-yellow"></div>
+                        <div class="terminal-dot dot-green"></div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command">$ python contact_deon.py</div>
+                        <div class="output">Initializing connection...</div>
+                        <div class="output">Loading ML expertise... ✓</div>
+                        <div class="output">Status: Available for collaboration</div>
+                        <div class="command">$ cat skills.txt</div>
+                        <div class="output">• Data Science</div>
+                        <div class="output">• Machine Learning Beginners</div>
+                        <div class="output">• Python & SQL Beginners</div>
+                        <div class="command">$ ./start_conversation.sh</div>
+                        <div class="output">Ready to discuss your ML project!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
